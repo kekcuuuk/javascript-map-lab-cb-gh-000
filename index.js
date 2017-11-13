@@ -24,6 +24,6 @@ const zebraStripes = [
 
 let sortedRobots = robots.map((robot) =>
 	Object.assign({}, robot, {
-	    alliance: knownDecepticons.indexOf(robot.name) > 0 ? 'decepticon' : 'autobot';
+	    alliance: knownDecepticons.indexOf(robot.name) > 0 ? 'decepticon' : 'autobot'
 	});
 )
